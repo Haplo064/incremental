@@ -1,10 +1,15 @@
+function incremental()
+{
+	this.wood=0;
+
+	this.addWood = funtion(x)
+	{
+		this.wood+=x;
+	}
+}
+
 window.onload = function(){
 
-	var resources = {
-	    wood: 0,
-	    food: 0,
-	    stone: 0,
-	    crystal: 0,
-	}
-	
+var Game = new incremental();
+
 };
