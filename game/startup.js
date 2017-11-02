@@ -1,5 +1,7 @@
 var Startup = (function() {
 
+  var instance = {};
+
   instance.start = function() {
     var wood = 0;
     var stone = 0;
