@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link href="plugins/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="theme_css"/>
 </head>
 <body>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<span>Wood: <span id="woodTotal">0</span></span><br>
-				<span>Stone: <span id="stoneTotal">0</span></span><br>
-				<span>Food: <span id="foodTotal">0</span></span><br>
-				<span>Crystal: <span id="crystalTotal">0</span></span><br>
-			</div>
-			<div class="col-md-4">
-				<button type="button" id="woodAdd" class="btn btn-secondary">More Wood</button><br>
-				<button type="button" id="stoneAdd" class="btn btn-secondary">More Stone</button><br>
-				<button type="button" id="foodAdd" class="btn btn-secondary">More Food</button><br>
-				<button type="button" id="crystalAdd" class="btn btn-secondary">More Crystal</button><br>
-			</div>
-			<div class="col-md-4"></div>
-		</div>
+<div class="row">
+	<div class="col-md-4">
+		<table class="baseTable">
+			<tr><span>Wood: <span id="woodTotal">0</span></span><br></tr>
+			<tr><span>Stone: <span id="stoneTotal">0</span></span><br></tr>
+			<tr><span>Food: <span id="foodTotal">0</span></span><br></tr>
+			<tr><span>Crystal: <span id="crystalTotal">0</span></span><br></tr>
+		</table>
 	</div>
+	<div class="col-md-4">
+		<table class="baseTable">
+			<tr><button type="button" id="woodAdd" class="btn btn-secondary">More Wood</button><br></tr>
+			<tr><button type="button" id="stoneAdd" class="btn btn-secondary">More Stone</button><br></tr>
+			<tr><button type="button" id="foodAdd" class="btn btn-secondary">More Food</button><br></tr>
+			<tr><button type="button" id="crystalAdd" class="btn btn-secondary">More Crystal</button><br></tr>
+		</table>
+	</div>
+	<div class="col-md-4"></div>
+</div>
 </body>
 <script type="text/javascript" src="plugins/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="plugins/js/tether.min.js"></script>
