@@ -1,21 +1,8 @@
 $(document).ready(function() {
-    document.getElementById('woodAdd').addEventListener('click', function() {addWood(1)}, false);
-    document.getElementById('stoneAdd').addEventListener('click', function() {addStone(1)}, false);
-    document.getElementById('foodAdd').addEventListener('click', function() {addFood(1)}, false);
-    document.getElementById('crystalAdd').addEventListener('click', function() {addCrystal(1)}, false);
+    for(var i = 0; i < tier1.length; i++) {
+        document.getElementById(tier1[i]+'Add').addEventListener('click', function() {addResource(tier1[i],1)}, false);
+    }
 });
-function addWood(x) {
-    return wood += x;
-}
-
-function addStone(x) {
-    return stone += x;
-}
-
-function addFood(x) {
-    return food += x;
-}
-
-function addCrystal(x) {
-    return crystal += x;
-}
+function addResource(x,y) {
+    return window[x] += y;
+};
