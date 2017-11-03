@@ -1,5 +1,5 @@
 window.onload = function(){
-    document.getElementById('woodAdd').onclick = addWood(1);
+    document.getElementById('woodAdd').addEventListener('click', addWood(1), false);
 };
 function addWood(x) {
     console.log(wood);
