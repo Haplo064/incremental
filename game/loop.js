@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var myVar = setInterval(loop, 100);
+    var myVar = setInterval(loop, 10);
 
     setInterval(loop, 250);
 
