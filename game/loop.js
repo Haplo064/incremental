@@ -7,7 +7,7 @@ window.onload = function(){
     function loop( )
     {
         for(var i = 0; i < tier1.length; i++) {
-            document.getElementById(tier1[i]+'Total').innerHTML=tier1[i];
+            document.getElementById(tier1[i]+'Total').innerHTML=window[tier1[i]];
         }
 
     }
