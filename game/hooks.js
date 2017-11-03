@@ -1,3 +1,3 @@
 window.onload = function(){
-    document.getElementById('woodAdd').onclick = Game.addWood(1);
+    document.getElementById('woodAdd').onclick = wood++;
 };
