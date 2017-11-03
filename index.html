@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="plugins/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="theme_css"/>
 </head>
 <body>
-<span>Wood: <span id="woodTotal">0</span>
-<button type="button" id="woodAdd" class="btn btn-secondary">More.</button>
-<br>
-<span>Stone: <span id="stoneTotal">0</span>
-<button type="button" id="stoneAdd" class="btn btn-secondary">More.</button>
-<br>
-<span>Food: <span id="foodTotal">0</span>
-<button type="button" id="foodAdd" class="btn btn-secondary">More.</button>
-<br>
-<span>Crystal: <span id="crystalTotal">0</span>
-<button type="button" id="crystalAdd" class="btn btn-secondary">More.</button>
+
+	<div class="container">
+		<div class="col-md-4">
+			<span>Wood: <span id="woodTotal">0</span></span><br>
+			<span>Stone: <span id="stoneTotal">0</span></span><br>
+			<span>Food: <span id="foodTotal">0</span></span><br>
+			<span>Crystal: <span id="crystalTotal">0</span></span><br>
+		</div>
+		<div class="col-md-4">
+			<button type="button" id="woodAdd" class="btn btn-secondary">More Wood</button>
+			<button type="button" id="stoneAdd" class="btn btn-secondary">More Stone</button>
+			<button type="button" id="foodAdd" class="btn btn-secondary">More Food</button>
+			<button type="button" id="crystalAdd" class="btn btn-secondary">More Crystal</button>
+		</div>
+		<div class="col-md-4"></div>
 </body>
 <script type="text/javascript" src="plugins/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="plugins/js/tether.min.js"></script>
