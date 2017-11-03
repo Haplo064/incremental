@@ -1,6 +1,7 @@
-window.onload = function(){
+$(document).ready(function() {
+    console.log("Poop");
     document.getElementById('woodAdd').addEventListener('click', function() {addWood(1)}, false);
-};
+});
 function addWood(x) {
     console.log(wood);
     console.log(x);
