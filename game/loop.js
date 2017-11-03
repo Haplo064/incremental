@@ -6,7 +6,10 @@ window.onload = function(){
 
     function loop( )
     {
-        document.getElementById('woodTotal').innerHTML=wood;
+        for(var i = 0; i < tier1.length; i++) {
+            document.getElementById(tier1[i]+'Total').innerHTML=tier1[i];
+        }
+
     }
 
 };
